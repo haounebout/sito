@@ -1,0 +1,142 @@
+body {
+    margin: 10px;
+    background-color: whitesmokes;
+}
+
+
+
+
+.navbar-brand {
+    font-size: 45px;
+    font-family: "TITOLO";
+    color: black;
+}
+
+.navbar-nav {
+    
+    font-size: 20px;
+    color: black;
+    font-family: "TITOLO";
+}
+
+
+iframe {
+    height: 75vh;
+    width: 50vw;
+    padding-top: 25px;
+    
+}
+.h2 {
+    font-family: "Interphases Pro";
+}
+.lead {
+    font-size: 20px;
+    font-family: "Interphases Pro";
+}
+.bold {
+    font-size: 30px;
+    font-family: "Interphases Pro";
+}
+@font-face {
+    font-family: "Interphases Pro";
+    src: url("tt_interphases_pro/TT\ Interphases\ Pro\ Trial\ Variable.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "TITOLO";
+    src: url("tt_interphases_pro/TT\ Interphases\ Pro\ Trial\ DemiBold.ttf") format("truetype");
+}  
+
+/* Aggiunta di classi personalizzate per rendere i bottoni ancora più grandi */
+.square-btn {
+    width: 75vw; /* Larghezza relativa alla larghezza del viewport */
+    height: 50vw; /* Altezza uguale alla larghezza */
+    font-size: 3rem; /* Dimensione del testo dei bottoni */
+    font-family: "Interphases Pro";
+    border-radius: 1px;
+}
+
+  /* Sfondo nero, spazio tra i bottoni e testo centrato */
+.black-background {
+    background-color: white;
+    border-color: white;
+    margin-bottom: 100px; /* Aumentato il margine inferiore tra i bottoni */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black; /* Impostato il colore del testo su bianco */
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Aggiunto un effetto di transizione */
+}
+
+  /* Cambiare il colore del testo, dello sfondo e dei bordi quando il bottone è selezionato (hover) */
+.black-background:hover {
+    background-color: black;
+    color: white;
+    border-color: black;
+}
+
+  /* Font personalizzato */
+
+
+  /* Stile per centrare i bottoni */
+.centered-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.photos img {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0px 0px;
+}
+
+.photos {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 40px;
+}
+
+p {
+     
+    display: flex;
+    justify-content: center;
+}
+
+.footy {
+    font-size: 12;
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    font-size: 10px;
+    padding: 20px 0;
+    text-align: center;
+}
+/* Stile per gli icon button */
+.icon-button {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0 10px;
+  }
+
+  /* Immagine in bianco e nero */
+  .icon-button img {
+    filter: grayscale(100%); /* Rende l'immagine in scala di grigi al 100% */
+    transition: filter 0.3s; /* Aggiunge un effetto di transizione */
+  }
+
+.text {
+    padding: 100;
+    height: 75%;
+    width: 75%;
+    justify-content: center;
+    margin: 0 auto;
+}
