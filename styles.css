@@ -7,14 +7,14 @@ body {
 
 
 .navbar-brand {
-    font-size: 45px;
+    font-size: 3rem;
     font-family: "TITOLO";
     color: black;
 }
 
 .navbar-nav {
     
-    font-size: 20px;
+    font-size: 1.5rem;
     color: black;
     font-family: "TITOLO";
 }
@@ -49,7 +49,7 @@ iframe {
 
 /* Aggiunta di classi personalizzate per rendere i bottoni ancora più grandi */
 .square-btn {
-    width: 75vw; /* Larghezza relativa alla larghezza del viewport */
+    width: 100vw; /* Larghezza relativa alla larghezza del viewport */
     height: 50vw; /* Altezza uguale alla larghezza */
     font-size: 3rem; /* Dimensione del testo dei bottoni */
     font-family: "Interphases Pro";
