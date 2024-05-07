@@ -9,6 +9,7 @@ body {
 .navbar-brand {
     font-size: 3rem;
     font-family: 'Roboto Mono', Regular 400;
+    font-weight: bolder;
     color: black;
 }
 
@@ -17,6 +18,8 @@ body {
     font-size: 1.5rem;
     color: black;
     font-family: 'Roboto Mono', Regular 400;
+    font-weight: bold;
+    
 }
 
 
