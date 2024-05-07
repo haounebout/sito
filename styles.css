@@ -8,7 +8,7 @@ body {
 
 .navbar-brand {
     font-size: 3rem;
-    font-family: "TITOLO";
+    font-family: 'Roboto Mono', Regular 400;
     color: black;
 }
 
@@ -16,7 +16,7 @@ body {
     
     font-size: 1.5rem;
     color: black;
-    font-family: "TITOLO";
+    font-family: 'Roboto Mono', Regular 400;
 }
 
 
@@ -27,29 +27,21 @@ iframe {
     
 }
 .h2 {
-    font-family: "Interphases Pro";
+    font-family: 'Roboto Mono', Regular 400;
 }
 .lead {
     font-size: 18px;
-    font-family: "Interphases Pro";
+    font-family: 'Roboto Mono', Regular 400;
 }
 .col {
     font-size: 18px;
-    font-family: "Interphases Pro";
+    font-family: 'Roboto Mono', Regular 400;
 }
 .bold {
     font-size: 30px;
-    font-family: "Interphases Pro";
-}
-@font-face {
-    font-family: "Interphases Pro";
-    src: url("tt_interphases_pro/TT\ Interphases\ Pro\ Trial\ Variable.ttf") format("truetype");
+    font-family: 'Roboto Mono', Regular 400;
 }
 
-@font-face {
-    font-family: "TITOLO";
-    src: url("tt_interphases_pro/TT\ Interphases\ Pro\ Trial\ DemiBold.ttf") format("truetype");
-}  
 
 /* Aggiunta di classi personalizzate per rendere i bottoni ancora più grandi */
 .square-btn {
