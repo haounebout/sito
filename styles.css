@@ -51,7 +51,7 @@ iframe {
     width: 100vw; /* Larghezza relativa alla larghezza del viewport */
     height: 50vw; /* Altezza uguale alla larghezza */
     font-size: 3rem; /* Dimensione del testo dei bottoni */
-    font-family: "Interphases Pro";
+    font-family: "Roboto Mono";
     border-radius: 1px;
 }
 
