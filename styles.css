@@ -8,8 +8,23 @@ body {
     background-attachment: fixed;
 }
 
+/* Impostazione del colore bianco per tutti gli elementi della navbar */
+.navbar, .navbar-nav, .navbar-brand {
+    color: white !important;  /* Usa !important per forzare il colore */
+}
+
+/* Seleziona anche i link all'interno della navbar */
+.navbar-nav a {
+    color: white !important;  /* Colore bianco per i link */
+}
+
+/* Cambia il colore al passaggio del mouse */
+.navbar-nav a:hover {
+    color: #f0f0f0 !important;  /* Un colore chiaro per l'hover */
+}
+
 .navbar {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: trasparent;
     z-index: 999;
 }
 
