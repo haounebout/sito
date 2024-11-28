@@ -1,12 +1,17 @@
 body {
     margin: 10px;
-    background-color: whitesmokes;
+    background-color: trasparent;
     background-image: url('images/hn-back2.jpg');
     background-size: cover;
     background-position: center;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
+.navbar {
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: 999;
+}
 
 
 
@@ -14,13 +19,13 @@ body {
     font-size: 3rem;
     font-family: 'Roboto Mono', Bold 700;
     font-weight: bolder;
-    color: whitesmokes;
+    color: white;
 }
 
 .navbar-nav {
     
     font-size: 1.5rem;
-    color: whitesmokes;
+    color: white;
     font-family: 'Roboto Mono', SemiBold 600;
     font-weight: bold;
     
@@ -35,22 +40,22 @@ iframe {
 }
 .h2 {
     font-family: 'Roboto Mono', Regular 400;
-    color: whitesmokes;
+    color: white;
 }
 .lead {
     font-size: 18px;
     font-family: 'Roboto Mono', Regular 400;
-    color: whitesmokes;
+    color: white;
 }
 .col {
     font-size: 18px;
     font-family: 'Roboto Mono', Regular 400;
-    color: whitesmokes;
+    color: white;
 }
 .bold {
     font-size: 30px;
     font-family: 'Roboto Mono', Regular 400;
-    color: whitesmokes;
+    color: white;
 }
 
 
@@ -65,7 +70,7 @@ iframe {
 
   /* Sfondo nero, spazio tra i bottoni e testo centrato */
 .black-background {
-    background-color: white;
+    background-color: trasparent;
     border-color: white;
     margin-bottom: 0px; /* Aumentato il margine inferiore tra i bottoni */
     text-align: center;
@@ -73,7 +78,7 @@ iframe {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: black; /* Impostato il colore del testo su bianco */
+    color: white; /* Impostato il colore del testo su bianco */
     transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Aggiunto un effetto di transizione */
 }
 
@@ -125,11 +130,12 @@ p {
     font-size: 10px;
     padding: 20px 0;
     text-align: center;
+    color: white;
 }
 /* Stile per gli icon button */
 .icon-button {
-    background: none;
-    border: none;
+    background: white;
+    border: white;
     padding: 0;
     margin: 0 10px;
   }
