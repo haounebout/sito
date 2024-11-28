@@ -14,13 +14,13 @@ body {
     font-size: 3rem;
     font-family: 'Roboto Mono', Bold 700;
     font-weight: bolder;
-    color: black;
+    color: whitesmokes;
 }
 
 .navbar-nav {
     
     font-size: 1.5rem;
-    color: black;
+    color: whitesmokes;
     font-family: 'Roboto Mono', SemiBold 600;
     font-weight: bold;
     
@@ -35,18 +35,22 @@ iframe {
 }
 .h2 {
     font-family: 'Roboto Mono', Regular 400;
+    color: whitesmokes;
 }
 .lead {
     font-size: 18px;
     font-family: 'Roboto Mono', Regular 400;
+    color: whitesmokes;
 }
 .col {
     font-size: 18px;
     font-family: 'Roboto Mono', Regular 400;
+    color: whitesmokes;
 }
 .bold {
     font-size: 30px;
     font-family: 'Roboto Mono', Regular 400;
+    color: whitesmokes;
 }
 
 
