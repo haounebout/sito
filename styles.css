@@ -1,6 +1,10 @@
 body {
     margin: 10px;
     background-color: whitesmokes;
+    background-image: url('images/hn-back2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
 }
 
 
