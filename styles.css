@@ -86,7 +86,7 @@ iframe {
   /* Sfondo nero, spazio tra i bottoni e testo centrato */
 .black-background {
     background-color: trasparent;
-    border-color: white;
+    border-color: transparent;
     margin-bottom: 0px; /* Aumentato il margine inferiore tra i bottoni */
     text-align: center;
     display: flex;
@@ -101,7 +101,7 @@ iframe {
 .black-background:hover {
     background-color: black;
     color: white;
-    border-color: black;
+    border-color: transparent;
 }
 
   /* Font personalizzato */
