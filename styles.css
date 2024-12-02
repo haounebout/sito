@@ -79,7 +79,7 @@ iframe {
     color: white;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
     background-color: rgba(0, 0, 0, 0.5);
-    display: inline-block;
+    display: block;
 }
 .col {
     font-size: 18px;
