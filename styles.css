@@ -53,10 +53,10 @@ body {
     padding: 0px 0px;
 }
 
-@media (min-width: 768px) { /* Stile solo per schermi più grandi */
-    .photos img {
-        max-height: 70vh; 
-        object-fit: contain; /* l'immagine si adatta senza deformarsi */
+@media (min-width: 992px) {
+    .img-fluid {
+        max-width: 75%; /* L'immagine occupa il 75% della larghezza */
+        height: auto; /* Mantiene il rapporto d'aspetto */
     }
 }
 
