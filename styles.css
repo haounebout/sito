@@ -55,8 +55,10 @@ body {
 
 @media (min-width: 992px) {
     .img-fluid {
-        max-width: 75%; /* L'immagine occupa il 75% della larghezza */
-        height: auto; /* Mantiene il rapporto d'aspetto */
+        max-width: 60%; 
+        height: auto; 
+        margin: 0 auto;
+        display: block;
     }
 }
 
