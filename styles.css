@@ -1,6 +1,6 @@
 body {
     margin: 10px;
-    background-color: trasparent;
+    background-color: transparent;
     background-image: url('images/hn-back2.jpg');
     background-size: cover;
     background-position: center;
@@ -24,7 +24,7 @@ body {
 }
 
 .navbar {
-    background-color: trasparent;
+    background-color: transparent;
     z-index: 999;
 }
 
@@ -112,7 +112,7 @@ iframe {
 
   /* Sfondo nero, spazio tra i bottoni e testo centrato */
 .black-background {
-    background-color: trasparent;
+    background-color: transparent;
     border-color: transparent;
     margin-bottom: 0px; /* Aumentato il margine inferiore tra i bottoni */
     text-align: center;
