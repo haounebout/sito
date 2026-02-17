@@ -195,3 +195,15 @@ p {
     justify-content: center;
     margin: 0 auto;
 }
+.iframe-wrapper {
+    width: 100%;
+  /*max-width: 700px;   /* larghezza massima su desktop */
+    margin: 0 auto 30px auto; /* centra orizzontalmente */
+}
+
+.iframe-wrapper iframe {
+    width: 100%;
+  /*aspect-ratio: 400 / 472; /* mantiene proporzioni originali */
+    border: 0;
+    display: block;
+}
